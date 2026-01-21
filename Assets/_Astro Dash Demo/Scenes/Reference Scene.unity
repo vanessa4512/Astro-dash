@@ -211,8 +211,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1934842693
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 4972ac2144c6e284c817039ffdcac6ed, type: 3}
@@ -255,10 +255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.GameManager
   uiManager: {fileID: 1991600527}
-  speedMultiplier: 0
-  maxSpeedMultiplier: 10
-  speedMultiplierIncrement: 1
-  speedMultiplierIncrementInterval: 10
+  initialSpeed: 0
+  maxSpeed: 0
+  speedIncrement: 0
+  speedIncrementInterval: 0
 --- !u!4 &149064684
 Transform:
   m_ObjectHideFlags: 0
@@ -1201,9 +1201,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1934842693
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: b01d103f8ecd0614ba8f0934b01664fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000d7bb0b045b90295d
+  m_ApplyToSortingLayers: 00000000d7bb0b045b90295d455b5373d1e1dd2d
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1736,9 +1736,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1934842693
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 48599bdf8155ffd41811044625da44ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3501,9 +3501,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1934842693
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 6a2205be4047d14428a6a9108b64e29b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3695,16 +3695,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202ecd48eab7492db73fad20dc2afb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacles.ObstacleSpawner
-  groundEnemies:
-  - {fileID: 1210991222085399427, guid: 7d95981c46a75c64b91e446438aad1cc, type: 3}
-  - {fileID: 6169251742042787585, guid: cf8e33395c599e04c9a3de231a32ce45, type: 3}
-  flyingEnemies:
-  - {fileID: 6237417686706221830, guid: 44898b8b9e2907c47abe611d902fd6ff, type: 3}
-  - {fileID: 2856804408898220514, guid: f93a902b6432d8c4bae85071ef1afeb2, type: 3}
-  groundSpawnPoint: {fileID: 1304673558}
-  airSpawnPoint: {fileID: 1038794917}
-  minSpawnTime: 1
-  maxSpawnTime: 2.5
+  enemies: []
+  spawners: []
+  startingSpawnRate: 0
+  minSpawnRate: 0
+  decreaseSpawnRateBy: 0
+  increaseSpawnRateAt: 0
 --- !u!4 &1849054032
 Transform:
   m_ObjectHideFlags: 0
