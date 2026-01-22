@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 35ecf2a0f2b91e04d8cd088e2ab5f5b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7192343769814068228
+    second: Alien 01_0
+  - first:
+      213: -6033265816455250806
+    second: Alien 01_1
+  - first:
+      213: -7937304537280493134
+    second: Alien 01_2
+  - first:
+      213: -8594136097022477542
+    second: Alien 01_3
+  - first:
+      213: 699194462133690894
+    second: Alien 01_4
+  - first:
+      213: 5037005089284139657
+    second: Alien 01_5
+  - first:
+      213: 2807400891998841281
+    second: Alien 01_6
+  - first:
+      213: -3875512114750359292
+    second: Alien 01_7
+  - first:
+      213: 3390384307581025644
+    second: Alien 01_8
+  - first:
+      213: -6702727475444090948
+    second: Alien 01_9
+  - first:
+      213: 320582573070087835
+    second: Alien 01_10
+  - first:
+      213: -4349580854396419053
+    second: Alien 01_11
+  - first:
+      213: -3834708977669047851
+    second: Alien 01_12
+  - first:
+      213: 2467222041882882147
+    second: Alien 01_13
+  - first:
+      213: -7598662789229279999
+    second: Alien 01_14
+  - first:
+      213: -3265066667596569283
+    second: Alien 01_15
+  - first:
+      213: -909374765557193091
+    second: Alien 01_16
+  - first:
+      213: 6628361016756340001
+    second: Alien 01_17
+  - first:
+      213: 4380099514863887878
+    second: Alien 01_18
+  - first:
+      213: -7310833378297764031
+    second: Alien 01_19
+  - first:
+      213: 5972813536404278188
+    second: Alien 01_20
+  - first:
+      213: -5121775824604204604
+    second: Alien 01_21
+  - first:
+      213: -3086193205494067467
+    second: Alien 01_22
+  - first:
+      213: 7161122407180830358
+    second: Alien 01_23
+  - first:
+      213: 7444913476326072902
+    second: Alien 01_24
+  - first:
+      213: 4333626700006849794
+    second: Alien 01_25
+  - first:
+      213: 6088437706649522861
+    second: Alien 01_26
+  - first:
+      213: 4447805308198641552
+    second: Alien 01_27
+  - first:
+      213: -1994958144190247303
+    second: Alien 01_28
+  - first:
+      213: -2585433105748786616
+    second: Alien 01_29
+  - first:
+      213: -8390061126154115437
+    second: Alien 01_30
+  - first:
+      213: 4430604502863873127
+    second: Alien 01_31
+  - first:
+      213: -6501906870151585087
+    second: Alien 01_32
+  - first:
+      213: 1284488386049480891
+    second: Alien 01_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien 01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf31db1b279af2c90800000000000000
+      internalID: -7192343769814068228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c7dae94b8854ca0800000000000000
+      internalID: -6033265816455250806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 204
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9cc45b39709d190800000000000000
+      internalID: -7937304537280493134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 204
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bfc91e0ce7bb880800000000000000
+      internalID: -8594136097022477542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 204
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e022668a8a904b900800000000000000
+      internalID: 699194462133690894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 201
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98aad96017907e540800000000000000
+      internalID: 5037005089284139657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 156
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9a4bdac34e5f620800000000000000
+      internalID: 2807400891998841281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 156
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409f495d34a673ac0800000000000000
+      internalID: -3875512114750359292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 156
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dfc6190901d0f20800000000000000
+      internalID: 3390384307581025644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 156
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb777e7afd02bf2a0800000000000000
+      internalID: -6702727475444090948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 156
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96f505d620f27400800000000000000
+      internalID: 320582573070087835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 156
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3148cdb024f23a3c0800000000000000
+      internalID: -4349580854396419053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 156
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9f801808068cac0800000000000000
+      internalID: -3834708977669047851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 156
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360717c00655d3220800000000000000
+      internalID: 2467222041882882147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1058200e3702c8690800000000000000
+      internalID: -7598662789229279999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 108
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3520f53a2720b2d0800000000000000
+      internalID: -3265066667596569283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 108
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76624308704163f0800000000000000
+      internalID: -909374765557193091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 108
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1250fc6e93bacfb50800000000000000
+      internalID: 6628361016756340001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 108
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606a2505d4d39cc30800000000000000
+      internalID: 4380099514863887878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 108
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1472e72e6c3ba8a90800000000000000
+      internalID: -7310833378297764031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_20
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 108
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab850b1442b3e250800000000000000
+      internalID: 5972813536404278188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 108
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1784b160ccbe8b0800000000000000
+      internalID: -5121775824604204604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe4d4681a3ab25d0800000000000000
+      internalID: -3086193205494067467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_23
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 57
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6968a1953ea616360800000000000000
+      internalID: 7161122407180830358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6422fe3ac55a15760800000000000000
+      internalID: 7444913476326072902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 60
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d7e0be582242c30800000000000000
+      internalID: 4333626700006849794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 60
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da250f516d97e7450800000000000000
+      internalID: 6088437706649522861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 59
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fd641cc57c9bd30800000000000000
+      internalID: 4447805308198641552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e84c9332c7054e0800000000000000
+      internalID: -1994958144190247303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_29
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 12
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8420f4dd942be1cd0800000000000000
+      internalID: -2585433105748786616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_30
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 9
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39625c3bbd3809b80800000000000000
+      internalID: -8390061126154115437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764827d225bac7d30800000000000000
+      internalID: 4430604502863873127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 8
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c261f1762694c5a0800000000000000
+      internalID: -6501906870151585087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien 01_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 8
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb81890b16b63d110800000000000000
+      internalID: 1284488386049480891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Alien 01_0: -7192343769814068228
+      Alien 01_1: -6033265816455250806
+      Alien 01_10: 320582573070087835
+      Alien 01_11: -4349580854396419053
+      Alien 01_12: -3834708977669047851
+      Alien 01_13: 2467222041882882147
+      Alien 01_14: -7598662789229279999
+      Alien 01_15: -3265066667596569283
+      Alien 01_16: -909374765557193091
+      Alien 01_17: 6628361016756340001
+      Alien 01_18: 4380099514863887878
+      Alien 01_19: -7310833378297764031
+      Alien 01_2: -7937304537280493134
+      Alien 01_20: 5972813536404278188
+      Alien 01_21: -5121775824604204604
+      Alien 01_22: -3086193205494067467
+      Alien 01_23: 7161122407180830358
+      Alien 01_24: 7444913476326072902
+      Alien 01_25: 4333626700006849794
+      Alien 01_26: 6088437706649522861
+      Alien 01_27: 4447805308198641552
+      Alien 01_28: -1994958144190247303
+      Alien 01_29: -2585433105748786616
+      Alien 01_3: -8594136097022477542
+      Alien 01_30: -8390061126154115437
+      Alien 01_31: 4430604502863873127
+      Alien 01_32: -6501906870151585087
+      Alien 01_33: 1284488386049480891
+      Alien 01_4: 699194462133690894
+      Alien 01_5: 5037005089284139657
+      Alien 01_6: 2807400891998841281
+      Alien 01_7: -3875512114750359292
+      Alien 01_8: 3390384307581025644
+      Alien 01_9: -6702727475444090948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
