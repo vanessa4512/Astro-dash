@@ -3390,7 +3390,7 @@ GameObject:
   - component: {fileID: 1810616749}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3695,12 +3695,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202ecd48eab7492db73fad20dc2afb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacles.ObstacleSpawner
-  enemies: []
-  spawners: []
-  startingSpawnRate: 0
-  minSpawnRate: 0
-  decreaseSpawnRateBy: 0
-  increaseSpawnRateAt: 0
+  enemies:
+  - {fileID: 1210991222085399427, guid: 7d95981c46a75c64b91e446438aad1cc, type: 3}
+  - {fileID: 6169251742042787585, guid: cf8e33395c599e04c9a3de231a32ce45, type: 3}
+  - {fileID: 6237417686706221830, guid: 44898b8b9e2907c47abe611d902fd6ff, type: 3}
+  - {fileID: 2856804408898220514, guid: f93a902b6432d8c4bae85071ef1afeb2, type: 3}
+  spawners:
+  - {fileID: 1038794917}
+  - {fileID: 1304673558}
+  startingSpawnRate: 2
+  minSpawnRate: 0.5
+  decreaseSpawnRateBy: 0.25
+  increaseSpawnRateAt: 5
 --- !u!4 &1849054032
 Transform:
   m_ObjectHideFlags: 0
