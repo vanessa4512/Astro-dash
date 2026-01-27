@@ -483,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556707420}
   - component: {fileID: 556707421}
+  - component: {fileID: 556707422}
   m_Layer: 0
   m_Name: Background 03_0
   m_TagString: Untagged
@@ -558,12 +559,26 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 17.777779, y: 10}
+  m_DrawMode: 2
+  m_Size: {x: 53.33334, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &556707422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556707419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde20efac49c47f5a2932c1e4ae95cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Environment.ParallaxBackground
+  spriteRenderer: {fileID: 556707421}
+  speed: -2
 --- !u!1 &561040838
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,8 +801,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1114851465}
   - component: {fileID: 1114851466}
+  - component: {fileID: 1114851467}
   m_Layer: 0
-  m_Name: Background 02_0
+  m_Name: Background 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,12 +877,26 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 17.777779, y: 10}
+  m_DrawMode: 2
+  m_Size: {x: 53.33334, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1114851467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114851464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde20efac49c47f5a2932c1e4ae95cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Environment.ParallaxBackground
+  spriteRenderer: {fileID: 1114851466}
+  speed: -3
 --- !u!1 &1353245657
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1468524259}
   - component: {fileID: 1468524260}
+  - component: {fileID: 1468524261}
   m_Layer: 0
   m_Name: Background 01
   m_TagString: Untagged
@@ -1014,12 +1045,26 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 7.111111, y: 4}
+  m_DrawMode: 2
+  m_Size: {x: 60, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1468524261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468524258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde20efac49c47f5a2932c1e4ae95cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Environment.ParallaxBackground
+  spriteRenderer: {fileID: 1468524260}
+  speed: -2
 --- !u!1 &1726591057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726591058}
   - component: {fileID: 1726591059}
+  - component: {fileID: 1726591060}
   m_Layer: 0
   m_Name: Floor_0
   m_TagString: Untagged
@@ -1105,12 +1151,26 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 17.777779, y: 1.6666666}
+  m_DrawMode: 2
+  m_Size: {x: 53.33334, y: 1.6666666}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1726591060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726591057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde20efac49c47f5a2932c1e4ae95cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Environment.ParallaxBackground
+  spriteRenderer: {fileID: 1726591059}
+  speed: -1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
