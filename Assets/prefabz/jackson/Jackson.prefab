@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 5644259566085449058}
   - component: {fileID: 1218376220742514057}
   - component: {fileID: 6745018464708723946}
+  - component: {fileID: 4283572094494425301}
   m_Layer: 0
   m_Name: Jackson
   m_TagString: Untagged
@@ -310,8 +311,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player.PlayerController
   rb: {fileID: 5644259566085449058}
-  animator: {fileID: 0}
+  animator: {fileID: 4283572094494425301}
   audioSource: {fileID: 0}
   jumpForce: 8
   jumpClip: {fileID: 0}
   dieClip: {fileID: 0}
+--- !u!95 &4283572094494425301
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826942242613551602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b061878d4bdca3d47b29ee3c650c7f33, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
