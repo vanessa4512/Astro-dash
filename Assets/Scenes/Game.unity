@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 5626611}
   - component: {fileID: 5626610}
   - component: {fileID: 5626609}
+  - component: {fileID: 5626612}
   m_Layer: 5
   m_Name: 'quit '
   m_TagString: Untagged
@@ -252,6 +253,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5626607}
   m_CullTransparentMesh: 1
+--- !u!114 &5626612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5626607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8b70b070a94b2cbe4a8404c0796110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.UISfx
+  audioSource: {fileID: 1653748951}
+  hoverSfx: {fileID: 8300000, guid: 681670b594ecc4248b6e52e06f44945b, type: 3}
+  clickSfx: {fileID: 8300000, guid: 899755daa1018b44f85b47533e518c52, type: 3}
 --- !u!1 &87555195
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +657,7 @@ GameObject:
   - component: {fileID: 176795820}
   - component: {fileID: 176795819}
   - component: {fileID: 176795818}
+  - component: {fileID: 176795821}
   m_Layer: 5
   m_Name: quit
   m_TagString: Untagged
@@ -762,6 +779,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176795816}
   m_CullTransparentMesh: 1
+--- !u!114 &176795821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176795816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8b70b070a94b2cbe4a8404c0796110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.UISfx
+  audioSource: {fileID: 1653748951}
+  hoverSfx: {fileID: 8300000, guid: 0770037574ebdf941b8e69a7ab49d59b, type: 3}
+  clickSfx: {fileID: 8300000, guid: bdfd5dbcb43509646989018e473ce4e9, type: 3}
 --- !u!1 &230099720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,6 +2467,7 @@ GameObject:
   - component: {fileID: 917128535}
   - component: {fileID: 917128534}
   - component: {fileID: 917128533}
+  - component: {fileID: 917128536}
   m_Layer: 5
   m_Name: ' play butt'
   m_TagString: Untagged
@@ -2556,6 +2589,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917128531}
   m_CullTransparentMesh: 1
+--- !u!114 &917128536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917128531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8b70b070a94b2cbe4a8404c0796110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.UISfx
+  audioSource: {fileID: 1653748951}
+  hoverSfx: {fileID: 8300000, guid: 0770037574ebdf941b8e69a7ab49d59b, type: 3}
+  clickSfx: {fileID: 8300000, guid: bdfd5dbcb43509646989018e473ce4e9, type: 3}
 --- !u!1 &922947983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +2939,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 346938894}
+  - {fileID: 1653748950}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237309370
@@ -3668,6 +3717,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651556068}
   m_CullTransparentMesh: 1
+--- !u!1 &1653748949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653748950}
+  - component: {fileID: 1653748951}
+  m_Layer: 0
+  m_Name: UI SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1653748950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653748949}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.9221003, y: -1.51694, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133868536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1653748951
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653748949}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1726591057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3833,6 +4011,7 @@ GameObject:
   - component: {fileID: 1852945135}
   - component: {fileID: 1852945134}
   - component: {fileID: 1852945133}
+  - component: {fileID: 1852945136}
   m_Layer: 5
   m_Name: play again
   m_TagString: Untagged
@@ -3954,6 +4133,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852945131}
   m_CullTransparentMesh: 1
+--- !u!114 &1852945136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852945131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8b70b070a94b2cbe4a8404c0796110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.UISfx
+  audioSource: {fileID: 1653748951}
+  hoverSfx: {fileID: 8300000, guid: 681670b594ecc4248b6e52e06f44945b, type: 3}
+  clickSfx: {fileID: 8300000, guid: 899755daa1018b44f85b47533e518c52, type: 3}
 --- !u!1 &1869653084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4578,6 +4772,14 @@ PrefabInstance:
     - target: {fileID: 5826942242613551602, guid: 07880824d8035534596cbcd68a77bf03, type: 3}
       propertyPath: m_Name
       value: Jackson
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292081469827579262, guid: 07880824d8035534596cbcd68a77bf03, type: 3}
+      propertyPath: Priority
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292081469827579262, guid: 07880824d8035534596cbcd68a77bf03, type: 3}
+      propertyPath: m_Volume
+      value: 0.192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
